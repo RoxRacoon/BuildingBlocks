@@ -11,4 +11,4 @@ Any suggestions are welcome and please if you are commiting something double che
 
 You can fork and use it how you want but please don't put it up on a domain without getting authorization from me.
 
-Thanks :D
+Everyone is free to commit and make changes and they are supervised by me, Thanks :D
