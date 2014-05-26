@@ -2,60 +2,116 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if gt IE 8]><!-->
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<html class="no-js">
+<!--<![endif]-->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title></title>
+    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
 
-        <!-- Add your site or application content here -->
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<!-- Navigation bar -->
 
-        <!-- Navigation bar -->
-    <div id="bg">
-        <div id='main-menu'>
-            <ul>
-                <li><img src="img/logo.png"></li>
-                <li class='active'><a href='index.html'><span>Home</span></a></li>
-                <li><a href='#'><span>About</span></a></li>
-                <li><a href='#'><span>Market</span></a></li>
-                <li><a href='#'><span>Statistics</span></a></li>
-                <li class='last'><a href='#'><span>Help</span></a></li>
-                <li><img src="img/login.png"></li>
+<div id="bg">
+    <div id='main-menu'>
+        <ul>
+            <li><img src="img/logo.png"></li>
+            <li class='active'><a href='index.html'><span>Home</span></a></li>
+            <li><a href='#'><span>About</span></a></li>
+            <li><a href='market.html'><span>Market</span></a></li>
+            <li><a href='#'><span>Statistics</span></a></li>
+            <li class='last'><a href='help.html'><span>Help</span></a></li>
+            <li><img id="login" src="img/login.png"></li>
+        </ul>
+    </div>
+</div>
+
+<div id="main">
+    <div id="bar">
+        <div class="textBar"> What are bitcoins? </div>
+    </div><img height="318" id="StockImage" src="img/Stock%20Image.jpg"width="588">
+    <div id="mainText">
+        Bitcoin is a peer-to-peer payment system introduced as open source
+        software in the year 2009 by a pseudo anonymous developer that goes
+        by the name Satoshi Nakamoto. This system does not have any central
+        regulators such as banks or financial institutions hence the term
+        peer-to-peer. The question that you might be asking now is, why
+        should I put my trust into this software technology if the creator
+        is not even known? The system does not require any of your trust to
+        actually work. Each transaction within the Bitcoin network is
+        analyzed and confirmed by the people who make up the backbone,
+        these individuals are called “miners”. Miners are individuals who
+        use specialized pieces of hardware to perform immensely complicated
+        calculations that enable the network to confirm transactions. The
+        miners themselves are not able to modify the core behind Bitcoins,
+        they just follow instructions from the specialized software that
+        they run on their computers and are rewarded once a certain amount
+        of transactions are confirmed.<br>
+        <br>
+        Now that you have some backstory on the financial system that is
+        Bitcoin, you might wonder why use Bitcoins? Bitcoin is not just the
+        181 currency in the world, it is the first decentralized virtual
+        currency. Never before in our history have individuals been able to
+        engage in transactions freely from anywhere in the world without
+        the need of identification.<br>
+        <a href="#" style="text-decoration:none; color: #fea022;">Click
+            here to learn more</a>
+
+        <div id="list">
+            <ul style="list-style-image: url('img/circle.png');">
+                <li>Your Bitcoin assets cannot be frozen.</li>
+
+                <li>Using the Bitcoin network is free, except for a
+                    voluntary fee you can use to speed up transaction
+                    processing.</li>
+
+                <li>Bitcoin is open-source and fully decentralized.</li>
+
+                <li>Bitcoin verifies transactions with the same encryption
+                    method that is used in military and government
+                    applications.</li>
+
+                <li>Trade Bitcoins from person to person without the use of
+                    a bank or a clearinghouse.</li>
             </ul>
         </div>
     </div>
+</div>
 
-    <div id="main">
-        <div id="bar"> What are bitcoins? </div>
-        <img src="img/Stock%20Image.jpg" height="318" width="588" id="StockImage">
+<div id="main-Second">
+    <div id="bar-Second">
+        <div class="textBar">
+            Benefits with bitcoin
+        </div>
     </div>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+</div><script src=
+                      "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+</script><script src="js/plugins.js"></script><script src="js/main.js"></script><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+</body>
 </html>
