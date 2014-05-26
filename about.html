@@ -15,57 +15,65 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-helpers.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
 <body>
-<!--[if lt IE 7]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-<!-- Add your site or application content here -->
-<!-- Navigation bar -->
-
-<div id="bg">
-    <div id='main-menu'>
-        <ul>
-            <li><img src="img/logo.png"></li>
-            <li class='active'><a href='index.html'><span>Home</span></a></li>
-            <li><a href='#'><span>About</span></a></li>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" height=50></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href='index.html'><span>Home</span></a></li>
+            <li class='active'><a href='#'><span>About</span></a></li>
             <li><a href='market.html'><span>Market</span></a></li>
             <li><a href='#'><span>Statistics</span></a></li>
             <li class='last'><a href='help.html'><span>Help</span></a></li>
-            <li><img id="login" src="img/login.png"></li>
-        </ul>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href='#'><span>Login</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
-</div>
 
-<div id="main">
-    <div id="bar">
-        <div class="textBar"> 1 </div>
-</div>
-
-<div id="main-Second">
-    <div id="bar-Second">
-        <div class="textBar">
-            Benefits with bitcoin
+    <div class="container">
+        <div id="bar-Second">
+            <h3>
+                Benefits with bitcoin
+            </h3>
         </div>
     </div>
-</div><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+
+    <script src=
+                          "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
     </script>
-    <script src="js/plugins.js"></script><script src="js/main.js"></script><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-XXXXX-X');ga('send','pageview');
-</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='http://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
 </body>
 </html>
